@@ -28,7 +28,7 @@ end
 
 def shift_with_args(array)
   ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
-  brands_removed = ["Blue Bell Creameries", "Ben & Jerry's"]{ |i, ice_cream_brands| ice_cream_brands << i < 2 }
+  brands_removed = ["Blue Bell Creameries", "Ben & Jerry's"]
   ice_cream_brands.slice(0..1)
 end
 
